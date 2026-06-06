@@ -1,0 +1,8 @@
+dataset estructurado con distintas ecuaciones y puntos de inicio (x_0):
+ID	Contexto / Aplicación	Función f(x) a ingresar	x0
+Raíz Esperada (Aprox.)	Notas del comportamiento
+01	Ecuación lineal (Tu caso)	2703.75 - 350*x	6	7.725	Converge rápido, la derivada es una constante.
+02	Cálculo de tirante crítico (Hidráulica)	x**3 - 5*x - 3	2.5	2.4908	Polinomio de grado 3. Ideal para probar cómo salta de iteración en iteración.
+03	Esfuerzos en vigas (Logaritmos)	x * log(x) - 10	5	5.7735	Pone a prueba la importación de log que tienes en tu código.
+04	Transiciones de peralte (Geometría Vial)	x - 0.2 * sin(x) - 0.5	1	0.6154	Evalúa el uso de funciones trigonométricas (sin, cos).
+05	Raíz cuadrada clásica	x**2 - 25	10	5.0	Caso de control básico. Prueba de convergencia segura.
